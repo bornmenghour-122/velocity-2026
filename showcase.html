@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity - Premium Car Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-text">VELOCITY</div>
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo">VELOCITY</div>
+        <div class="nav-links">
+            <a href="#showcase">SHOWCASE</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+            <a href="index.html" class="logout-link">LOG OUT</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-category fade-in-up">HYPERCAR</div>
+            <div class="hero-title">
+                <h1 class="hero-title-line fade-in-up">Phantom</h1>
+                <h1 class="hero-title-line fade-in-up delay-1">Velocity</h1>
+            </div>
+            <p class="hero-tagline fade-in-up delay-2">Where Engineering Meets Art</p>
+            <div class="hero-specs fade-in-up delay-3">
+                <div class="spec-item">
+                    <div class="spec-value">1,500 HP</div>
+                    <div class="spec-label">POWER</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-value">350 km/h</div>
+                    <div class="spec-label">TOP SPEED</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-value">0-100 in 2.3s</div>
+                    <div class="spec-label">ACCELERATION</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator fade-in-up delay-4">
+            <span>SCROLL</span>
+            <svg class="scroll-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Editorial Marquee -->
+    <div class="marquee">
+        <div class="marquee-content">
+            <span>PERFORMANCE • DESIGN • INNOVATION • </span>
+            <span>PERFORMANCE • DESIGN • INNOVATION • </span>
+            <span>PERFORMANCE • DESIGN • INNOVATION • </span>
+            <span>PERFORMANCE • DESIGN • INNOVATION • </span>
+        </div>
+    </div>
+
+    <!-- Car Categories Showcase -->
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <div class="section-header fade-in-scroll">
+                <h2>Our Collection</h2>
+                <p>Explore our curated selection of automotive excellence</p>
+            </div>
+
+            <!-- CAR 1 -->
+            <div class="car-category fade-in-scroll">
+                
+                <div class="car-image">
+                    <img src="/Picture/bugatti.jpg" alt="Sports Car">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="car-text">
+                    <div class="car-number">01</div>
+                    <div class="car-category-label">SPORTS CARS</div>
+                    <h3 class="car-title">The Apex of Engineering & Extreme Luxury</h3>
+                    <p class="car-description">Quad-turbocharged W16 engine, high-downforce aerodynamics, absolute hyper-luxury.</p>
+                    <div class="car-specs-list">
+                        <div class="spec-bullet">• 1,500 HP</div>
+                        <div class="spec-bullet">• 2.3s 0-100km/h</div>
+                        <div class="spec-bullet">• Limited Edition (1 of 60 units)</div>
+                    </div>
+                    <button class="btn-outline">Explore Sports Cars</button>
+                </div>
+            </div>
+
+            <!-- CAR 2 -->
+            <div class="car-category fade-in-scroll">
+                <div class="car-image order-1">
+                    <img src="/Picture/porch.avif" alt="Electric Vehicle">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="car-text order-2">
+                    <div class="car-number">02</div>
+                    <div class="car-category-label">SPORTS CARS</div>
+                    <h3 class="car-title">The Everyday Driver's Perfection</h3>
+                    <p class="car-description">Naturally aspirated 4.0L flat-6, mid-engine balance, flawless daily usability.</p>
+                    <div class="car-specs-list">
+                        <div class="spec-bullet">• 400 HP</div>
+                        <div class="spec-bullet">• 4.0s 0-100km/h (PDK)</div>
+                        <div class="spec-bullet">• Production Series</div>
+                    </div>
+                    <button class="btn-outline">Explore Sports Cars</button>
+                </div>
+            </div>
+
+            <!-- CAR 3 -->
+            <div class="car-category fade-in-scroll">
+                <div class="car-image order-1">
+                    <img src="/Picture/ferrari.jpg" alt="Electric Vehicle">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="car-text order-2">
+                    <div class="car-number">03</div>
+                    <div class="car-category-label">SPORTS CARS</div>
+                    <h3 class="car-title">The Racing Heritage & Elegant Precision</h3>
+                    <p class="car-description">Twin-turbocharged mid-engine V8, advanced S-Duct aerodynamics, surgical track handling.</p>
+                    <div class="car-specs-list">
+                        <div class="spec-bullet">• 720 HP (720 cv / 710 bhp)</div>
+                        <div class="spec-bullet">• 2.9s 0-100 km/h</div>
+                        <div class="spec-bullet">• Production Series</div>
+                    </div>
+                    <button class="btn-outline">Explore Sports Cars</button>
+                </div>
+            </div>
+                
+            <!-- CAR 4 -->
+
+            <div class="car-category fade-in-scroll">
+                <div class="car-image order-1">
+                    <img src="/Picture/lambo.jpg" alt="Electric Vehicle">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="car-text order-2">
+                    <div class="car-number">04</div>
+                    <div class="car-category-label">SPORTS CARS</div>
+                    <h3 class="car-title">The Raw, Aggressive Showstopper</h3>
+                    <p class="car-description">Naturally aspirated V12, full carbon fiber monocoque, fighter-jet styling.</p>
+                    <div class="car-specs-list">
+                        <div class="spec-bullet">• 700 HP</div>
+                        <div class="spec-bullet">• 2.9s 0-100km/h</div>
+                        <div class="spec-bullet">• Limited Edition (1 of 20 Roadsters)</div>
+                    </div>
+                    <button class="btn-outline">Explore Sports Cars</button>
+                </div>
+            </div>
+
+            <!-- CAR 5 -->
+            <div class="car-category fade-in-scroll">
+                <div class="car-image order-1">
+                    <img src="/Picture/mclarem.avif" alt="Hypercar">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="car-text order-2">
+                    <div class="car-number">05</div>
+                    <div class="car-category-label">SPORTS CARS</div>
+                    <h3 class="car-title">The Scientific, Lightweight Track Weapon</h3>
+                    <p class="car-description">Lightweight carbon chassis, adaptive suspension, driver-focused cockpit.</p>
+                    <div class="car-specs-list">
+                        <div class="spec-bullet">• 740 HP (750 PS)</div>
+                        <div class="spec-bullet">• 2.8s 0-100 km/h</div>
+                        <div class="spec-bullet">• Production Series</div>
+                    </div>
+                    <button class="btn-outline">Explore Sports Cars</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy">
+        <div class="container">
+            <div class="section-header fade-in-scroll">
+                <h2>Our Philosophy</h2>
+            </div>
+            <div class="manifesto-grid">
+                <div class="manifesto-card fade-in-scroll">
+                    <div class="manifesto-number">01</div>
+                    <h3>Performance First</h3>
+                    <p>Every gram of weight saved, every aerodynamic curve, and every engineering decision is made with one goal: delivering a pure, unfiltered track experience.</p>
+                </div>
+                <div class="manifesto-card fade-in-scroll">
+                    <div class="manifesto-number">02</div>
+                    <h3>Design Excellence</h3>
+                    <p>Form strictly follows function. Every vent, scoop, and active wing serves a scientific aerodynamic purpose while shaping an iconic, aggressive silhouette.</p>
+                </div>
+                <div class="manifesto-card fade-in-scroll">
+                    <div class="manifesto-number">03</div>
+                    <h3>Innovation DNA</h3>
+                    <p>We don't follow trends. We pioneering carbon fiber technology, push the limits of active hydraulics, and turn motorsport engineering into an absolute obsession.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text fade-in-scroll">
+                    <h2>Crafting Excellence</h2>
+                    <p>For over two decades, we've been at the forefront of automotive innovation. Our passion for perfection drives every design decision, every engineering choice, every detail.</p>
+                    <p>From the drawing board to the open road, we create machines that don't just move—they inspire. Welcome to the future of automotive excellence.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-value">200+</div>
+                            <div class="stat-label">AWARDS WON</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">50K+</div>
+                            <div class="stat-label">CARS DELIVERED</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">25+</div>
+                            <div class="stat-label">YEARS LEGACY</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image fade-in-scroll">
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80" alt="About Velocity">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="section-header fade-in-scroll">
+                    <h2>Get in Touch</h2>
+                    <p>Let's discuss your automotive dreams</p>
+                </div>
+                <form id="contact-form" class="contact-form fade-in-scroll">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>NAME</label>
+                            <input type="text" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>EMAIL</label>
+                            <input type="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>MESSAGE</label>
+                        <textarea name="message" rows="6" placeholder="Tell us about your vision..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">VELOCITY</div>
+                    <p>Redefining automotive excellence since 1999</p>
+                </div>
+                <div class="footer-col">
+                    <h3>CONTACT</h3>
+                    <div class="footer-contact">
+                        <div>✉ info@velocity.com</div>
+                        <div>☎ +1 (555) 123-4567</div>
+                        <div>📍 Los Angeles, CA</div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>FOLLOW US</h3>
+                    <div class="footer-social">
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2024 Velocity. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

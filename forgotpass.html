@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity - Premium Car Showcase</title>
+    <link rel="stylesheet" href="login_style.css?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-text">VELOCITY</div>
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo">VELOCITY</div>
+        <div class="nav-links">
+            <a href="#showcase">SHOWCASE</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+            <a href="sign_up.html" class="logout-link">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-category fade-in-up">HYPERCAR</div>
+            <div class="hero-title">
+                <h1 class="hero-title-line fade-in-up">Phantom</h1>
+                <h1 class="hero-title-line fade-in-up delay-1">Velocity</h1>
+            </div>
+            <p class="hero-tagline fade-in-up delay-2">Where Engineering Meets Art</p>
+            <div class="hero-specs fade-in-up delay-3">
+                <div class="spec-item">
+                    <div class="spec-value">1,500 HP</div>
+                    <div class="spec-label">POWER</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-value">350 km/h</div>
+                    <div class="spec-label">TOP SPEED</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-value">0-100 in 2.3s</div>
+                    <div class="spec-label">ACCELERATION</div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container">
+        <div class="card">
+            <h1>Fine Your Email</h1>
+            <h4>Hi! Welcome Back, You've Been Missed</h4>
+
+            <div class="Input_group">
+                <input type="email" id="email" required placeholder=" ">
+                <label for="email">Enter Email</label>
+            </div>
+
+            <div class="findcode">
+                <p><a href="#" class="findcode-link">Get Code</a></p>
+            </div>
+
+            <div class="Input_group">
+                <input type="codesms" id="codesms" required placeholder=" ">
+                <label for="codesms">Enter Code</label>
+            </div>
+
+            <div class="hero_btns">
+                <a href="showcase.html" class="btn">Sign In</a>
+            </div>
+
+            <div class="footer-links">
+                <p>Go back to <a href="sign_up.html" class="green-link">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+   
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">VELOCITY</div>
+                    <p>Redefining automotive excellence since 1999</p>
+                </div>
+                <div class="footer-col">
+                    <h3>CONTACT</h3>
+                    <div class="footer-contact">
+                        <div>✉ info@velocity.com</div>
+                        <div>☎ +1 (555) 123-4567</div>
+                        <div>📍 Los Angeles, CA</div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>FOLLOW US</h3>
+                    <div class="footer-social">
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2024 Velocity. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
